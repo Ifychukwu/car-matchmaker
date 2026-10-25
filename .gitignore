@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+models/*.pkl
+data/raw/*
+!data/raw/.gitkeep
+.streamlit/secrets.toml

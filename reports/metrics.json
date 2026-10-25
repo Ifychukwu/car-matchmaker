@@ -1,0 +1,126 @@
+{
+  "overall": {
+    "gbm": {
+      "mae": 1086.1497676974682,
+      "mape": 6.696054409536837,
+      "median_ape": 5.160826592457847,
+      "within_10pct": 78.60727086533538,
+      "r2": 0.9668644271673673
+    },
+    "model_median": {
+      "mae": 4022.3411418330775,
+      "mape": 28.3732201421415,
+      "median_ape": 17.80557541100786,
+      "within_10pct": 30.19969278033794,
+      "r2": 0.598930122818131
+    },
+    "model_year_median": {
+      "mae": 2126.451228878648,
+      "mape": 13.378554911575543,
+      "median_ape": 9.101216414655516,
+      "within_10pct": 53.63031233998976,
+      "r2": 0.8332467401683353
+    }
+  },
+  "fair_range": {
+    "target_coverage": 80,
+    "test_coverage": 79.97439836149513,
+    "half_width_pct": 10.948290065437138
+  },
+  "by_brand": {
+    "Audi": {
+      "gbm": 7.061353857617246,
+      "model_median": 32.17379570736543,
+      "model_year_median": 13.174429285151442
+    },
+    "BMW": {
+      "gbm": 6.793087761522179,
+      "model_median": 35.68660334182304,
+      "model_year_median": 15.747711816108415
+    },
+    "Ford": {
+      "gbm": 6.817314980110195,
+      "model_median": 28.086601839190244,
+      "model_year_median": 11.525361578137154
+    },
+    "Hyundai": {
+      "gbm": 6.211469561365171,
+      "model_median": 20.57982495931841,
+      "model_year_median": 11.284529269135577
+    },
+    "Mercedes-Benz": {
+      "gbm": 6.580366601116966,
+      "model_median": 31.957399763649878,
+      "model_year_median": 15.182432946025237
+    },
+    "Skoda": {
+      "gbm": 7.18008500816613,
+      "model_median": 21.078011668634886,
+      "model_year_median": 12.914370369696924
+    },
+    "Toyota": {
+      "gbm": 6.028127452273907,
+      "model_median": 26.359859277089136,
+      "model_year_median": 16.46081472857013
+    },
+    "Vauxhall": {
+      "gbm": 7.007926084623774,
+      "model_median": 23.06360974528764,
+      "model_year_median": 10.887827038482326
+    },
+    "Volkswagen": {
+      "gbm": 6.318064159020873,
+      "model_median": 28.654810509084978,
+      "model_year_median": 14.15863980633537
+    }
+  },
+  "by_price_band": {
+    "<\u00a37.5k": {
+      "n": 1936,
+      "gbm": 9.954924616714466,
+      "model_median": 83.75754954202014,
+      "model_year_median": 27.729091688044594
+    },
+    "\u00a37.5\u201312.5k": {
+      "n": 6073,
+      "gbm": 6.479609987591586,
+      "model_median": 24.29175013917764,
+      "model_year_median": 11.556282397550845
+    },
+    "\u00a312.5\u201320k": {
+      "n": 6442,
+      "gbm": 6.1664498671648005,
+      "model_median": 20.017377599589818,
+      "model_year_median": 11.337121217396243
+    },
+    "\u00a320\u201335k": {
+      "n": 4223,
+      "gbm": 6.210104394148015,
+      "model_median": 21.756337359188702,
+      "model_year_median": 11.868746223511579
+    },
+    "\u00a335k+": {
+      "n": 856,
+      "gbm": 7.244154444963535,
+      "model_median": 27.595345447470887,
+      "model_year_median": 16.662269544782426
+    }
+  },
+  "sizes": {
+    "train": 68352,
+    "calibration": 9765,
+    "test": 19530
+  },
+  "data": {
+    "raw_rows": 99187,
+    "duplicates_removed": 1475,
+    "implausible_removed": 53,
+    "too_rare_removed": 12,
+    "rows": 97647,
+    "models": 194
+  },
+  "final_model": {
+    "rows": 87882,
+    "fair_range_half_width_pct": 10.630422019758946
+  }
+}

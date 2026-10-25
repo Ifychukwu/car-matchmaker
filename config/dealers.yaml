@@ -1,0 +1,24 @@
+# Where "find one near me" links point. Each site builds a search URL from these parameters; {placeholders} are filled
+# in by carmatch.links. If a site changes its URL scheme, fix it here: the link still opens that site's search for the
+# make and model, it just drops the filters that no longer match.
+# verified: how far each site's parameter names have been checked.
+autotrader:
+  name: AutoTrader
+  base: https://www.autotrader.co.uk/car-search
+  params: {make: "{make}", model: "{model}", postcode: "{postcode}", radius: "{radius}", price-to: "{price_max}",
+           year-from: "{year_from}", year-to: "{year_to}", maximum-mileage: "{max_mileage}", fuel-type: "{fuel}",
+           transmission: "{transmission}"}
+  verified: "make, model, postcode seen in published example URLs (Oct 2026); other filter names not checked live"
+  note: Biggest UK marketplace; dealer and private stock
+ebay:
+  name: eBay Motors
+  base: https://www.ebay.co.uk/sch/i.html
+  params: {_nkw: "{make} {model}", _sacat: "9801", _udhi: "{price_max}", _stpos: "{postcode}", _sadis: "{radius}", _sop: "15"}
+  verified: "standard eBay search parameters (category 9801 = Cars)"
+  note: Auctions and buy-it-now; sorted lowest price first
+gumtree:
+  name: Gumtree
+  base: https://www.gumtree.com/search
+  params: {search_category: cars, q: "{make} {model}", search_location: "{postcode}", max_price: "{price_max}", distance: "{radius}"}
+  verified: "keyword search; price and distance filters unverified"
+  note: Mostly private sellers

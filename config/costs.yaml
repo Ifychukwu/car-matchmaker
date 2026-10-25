@@ -1,0 +1,19 @@
+# Running-cost assumptions. All editable in the app's sidebar too.
+# Fuel prices are rough placeholders: check today's UK averages (e.g. the RAC Fuel Watch or fuel-finder.uk) and update.
+fuel_price_per_litre:
+  Petrol: 1.35
+  Diesel: 1.42
+  Hybrid: 1.35      # hybrids in this data are petrol hybrids
+  Other: 1.35
+# Share of the official (listed) mpg you get in real life. 1.0 = use the listed figure as is.
+real_world_mpg_factor: 1.0
+# Used-car prices in the data are 2020 asking prices. Multiply by this to bring them to today's market.
+# 1.0 = no adjustment. UK used prices rose sharply in 2021-22; set this from a current used-car price index if you want.
+market_index: 1.0
+# Clean-air-zone (ULEZ) rule of thumb by first-registration year (Euro 4 petrol / Euro 6 diesel).
+# The real test is the car's Euro standard: check it with the DVLA lookup or TfL's vehicle checker.
+ulez_min_year:
+  Petrol: 2006
+  Hybrid: 2006
+  Diesel: 2016
+  Other: 2016

@@ -1,0 +1,9 @@
+pandas>=2.1
+numpy>=1.26
+scikit-learn>=1.4
+pyyaml>=6
+requests>=2.31
+matplotlib>=3.8
+streamlit>=1.36
+# optional: AI reader for the "describe your life" box
+# anthropic>=0.40
