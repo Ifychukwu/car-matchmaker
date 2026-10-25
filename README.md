@@ -1,4 +1,4 @@
-# 🚗 Car Matchmaker: used-car recommendations that fit your life
+# 🚗 Car Matchmaker: Car recommendations that fit your needs and lifestyle
 
 Describe your life in a sentence ("family of five in London with a dog, 40-mile commute, about £12k"). Car Matchmaker
 turns that into requirements and gives you a ranked shortlist of used cars that fit, with the reasons each one was
