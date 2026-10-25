@@ -1,5 +1,7 @@
 # 🚗 Car Matchmaker: Car recommendations that fit your needs and lifestyle
 
+Note: The app is trained on 97,647 UK adverts covering 9 brands (Audi, BMW, Ford, Hyundai, Mercedes-Benz, Skoda, Toyota, Vauxhall and VW). The price model can only value makes it has seen, so the dropdown is limited on purpose.
+
 Describe your life in a sentence ("family of five in London with a dog, 40-mile commute, about £12k"). Car Matchmaker
 turns that into requirements and gives you a ranked shortlist of used cars that fit, with the reasons each one was
 picked and what you give up. It tells you whether an advert is a good price, and opens AutoTrader, eBay and Gumtree
